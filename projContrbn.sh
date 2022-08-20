@@ -1,8 +1,8 @@
 #!/bin/bash
 #Author: Phil
 #script to test git and shell scripting
-read -p "please enter your repoURL: " repoURL
-read -p "please enter the repoName: " repoName
+read -p "please enter your repositoryURL: " repositoryURL
+read -p "please enter the repositoryName: " repositoryName
 read -p "please enter your work directory: " directory
 sudo mkdir $directory
 sudo chmod 777 $(pwd)/$directory

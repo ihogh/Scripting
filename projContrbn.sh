@@ -14,7 +14,7 @@ branch=$(git branch)
 if [[ "$branch" == "* main" ]]; then
 echo "you are on the main branch"
 git checkout -b $USER/changes-added
-echo "we are great Etech Engineers" > train.log
+echo "#!/bin/bash" > train.sh
 git status
 git add .
 git commit -m "$USER made some changes"

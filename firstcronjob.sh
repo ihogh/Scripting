@@ -1,3 +1,2 @@
 #!/bin/bash
-#script to demo cronjobs
-echo "welcome to Etech "
+echo "Thank you"
